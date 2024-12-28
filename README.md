@@ -17,7 +17,7 @@
 
 
 2. **Modify the Server Script**:
-   On the **server laptop**, use the IP address you obtained instead of `127.0.0.1` (localhost).
+   On the **server laptop**, use the IP address you obtained instead of `10.145.18.188` (localhost).
 
 ### 1. **Server-Side (Listening for Connections)**
 
@@ -41,7 +41,7 @@ On the **client laptop**, modify the client code to connect to the server's IP a
 
 
 ### Notes:
-- Ensure the **firewall** on both laptops allows traffic on port `8080`. You may need to open the port on the server using `ufw` or another firewall tool if it’s restricted.
+- Ensure the **firewall** on both laptops allows traffic on port `4000`. You may need to open the port on the server using `ufw` or another firewall tool if it’s restricted.
 - **Network Configuration**: Both laptops need to be on the same network (e.g., connected to the same Wi-Fi) for this setup to work.
 - **IP Address Configuration**: If you're using dynamic IP addresses, the IP of the server may change, so you may need to adjust the IP in the client code accordingly.
 
