@@ -28,9 +28,9 @@ On the **client laptop**, modify the client code to connect to the server's IP a
 ### 3. **Running the Server and Client on Different Laptops**
 
 1. **Run the Server**:
-   - On the **server laptop**, open a terminal and start the server by running:
+   - On the **server laptop**, open a terminal and start the server by running, example for addition opperation server:
    ```bash
-   python3 server.py
+   python3 server_add.py
    ```
 
 2. **Run the Client**:
